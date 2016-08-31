@@ -1,6 +1,8 @@
 # QRCodeReader
 二维码扫描-跨设备界面适配
 
+![竖屏](portrait.png)
+![横屏](landscape.png)
 
 ###Usage 用法
 ```

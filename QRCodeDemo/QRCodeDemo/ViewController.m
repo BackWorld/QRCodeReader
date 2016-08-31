@@ -17,6 +17,7 @@
 {
     UIButton *btn;
 }
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -27,7 +28,6 @@
     btn.backgroundColor = [UIColor lightGrayColor];
     [btn addTarget:self action:@selector(scan:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
-    
 }
 
 /**
